@@ -1,0 +1,397 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.top-header{
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: 15px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+.logo p{
+    margin-left: 100px;
+    font-size: 14px;
+    margin-top: 35px;
+
+}
+.navigation a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    margin-right: 100px;
+}
+.navigation a:hover{
+    color: white;
+    
+}
+.navigation ul{
+    list-style: none;
+    margin-top:30px;
+    padding: 0;
+    margin-left: -400px;
+    
+    
+}
+.H01{
+    display: flex;
+    margin-left: 1300px;
+    margin-top: -10px;
+}
+.h02{
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.t1{
+    display: flex;
+    margin-top: -30px;
+    margin-left: 600px;
+    color: black;
+    text-decoration: none;
+}
+.t2{
+    display: flex;
+    margin-top: -25px;
+    margin-left: 700px;
+    color: black;
+    text-decoration: none;
+}
+.t3{
+    display: flex;
+    margin-top: -25px;
+    margin-left: 850px;
+    color: black;
+    text-decoration: none;
+}
+.t4{
+    display: flex;
+    margin-top: -25px;
+    margin-left: 950px;
+    color: black;
+    text-decoration: none;
+}
+.col-2{
+    margin-left: 1100px;
+    display: flex;
+    margin-top: -25px;
+}
+.ko6{
+    display: flex;
+    margin-left: 250px;
+    margin-top: -30px;
+}
+.ko7{
+    display: flex;
+    margin-left:280px ;
+    margin-top: -30px;
+}
+.phone{
+    display: flex;
+    width: 80px;
+    height: 350px;
+    margin-left: 500px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+.ord{
+    display: flex;
+    margin-left: 100px;
+    margin-top: -380px;
+}
+.line{
+    display: flex;
+    margin-left: 380px;
+    margin-top: -360px;
+}
+.pro{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-right:400px;
+}
+.button{
+    display: flex;
+    margin-left: 850px;
+    height: 40px;
+    fornt size: medium 16px;
+    margin-top: 70px;
+}
+
+.red1{
+    display: flex;
+    margin-left: 186px;
+}
+.box1{
+    height: 145px;
+    width: 170px;
+    border: 1px solid rgb(14, 14, 30);
+    border-radius: 4px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.phone1{
+    display: flex;
+    margin-left: 260px;
+    margin-top: -99px;
+}
+.ho1{
+    margin-left: 265px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: poppins;
+}
+.box2{
+    height: 145px;
+    width: 170px;
+    border: 1px solid rgb(14, 14, 30);
+    border-radius: 4px;
+    margin-left: 410px;
+    margin-top: -145px;
+}
+.ho2{
+    margin-left: 480px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: poppins;
+}
+.laptop{
+    display: flex;
+    margin-left: 470px;
+    margin-top: -100px;
+}
+.box3{
+    height: 145px;
+    width: 170px;
+    border: 1px solid rgb(14, 14, 30);
+    border-radius: 4px;
+    margin-left: 620px;
+    margin-top: -145px;
+    background-color: blue;
+}
+.smart{
+    display: flex;
+    margin-left: 685px;
+    margin-top: -95px;
+    margin-right: -90px;
+    color: white;
+
+}
+.ho3{
+    margin-left: 684px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: poppins;
+    color: white;
+}
+.box4{
+    height: 145px;
+    width: 170px;
+    border: 1px solid rgb(14, 14, 30);
+    border-radius: 4px;
+    margin-left: 830px;
+    margin-top: -150px;
+    background-color: rgb(237, 16, 16);
+}
+.cam{
+    display: flex;
+    margin-left: 890px;
+    margin-top: -95px;
+    margin-right: -90px;
+    color: white;
+
+}
+.ho4{
+    margin-left:880px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: poppins;
+    color: white;
+}
+.box5{
+    height: 145px;
+    width: 170px;
+    border: 1px solid rgb(14, 14, 30);
+    border-radius: 4px;
+    margin-left:1050px;
+    margin-top: -150px;
+    background-color: rgb(3, 3, 3);
+}
+.headphone{
+    display: flex;
+    margin-left: 1100px;
+    margin-top: -95px;
+    margin-right: -90px;
+    color: white;
+
+}
+.ho5{
+    margin-left:1085px;
+    margin-top:5px;
+    font-size: 16px;
+    font-family: poppins;
+    color: white;
+}
+.box6{
+    height: 145px;
+    width: 170px;
+    border: 1px solid rgb(14, 14, 30);
+    border-radius: 4px;
+    margin-left:1270px;
+    margin-top: -150px;
+    background-color: rgb(42, 171, 197);
+}
+.GAME{
+    display: flex;
+    margin-left: 1324px;
+    margin-top: -95px;
+    margin-right: -90px;
+    color: white;
+
+}
+.ho6{
+    margin-left:1330px;
+    margin-top:5px;
+    font-size: 16px;
+    font-family: poppins;
+    color: white;
+}
+.best{
+    display: flex;
+    margin-left: 200px;
+}
+.spk{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 140px;
+}
+.tk{
+    display: flex;
+    margin-left: 190px;
+}
+.sk{
+    display: flex;
+    margin-left: 200px;
+}
+.dk{
+    display: flex;
+    margin-left: 250px;
+    margin-top:140px;
+}
+.box7{
+    width: 1440px;
+    height: 440px;
+    border: 1px solid rgb(14, 14, 30);
+    border-radius: 4px;
+    background-color: black;
+    margin-left: 60px;
+    margin-top: 200px;
+
+}
+.arul{
+    margin-left: 200px;
+    margin-top: -300px;
+    color: white;
+    font-family: poppins;
+    font-size:24px;
+}
+.suresh{
+    margin-left:200px;
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.nav{
+    margin-left: 200px;
+    color: white;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.email{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.s1{
+    margin-left:470px;
+    color: white;
+    margin-top: -160px;
+    font-size: 24px;
+    font-family: poppins;
+}
+.s2{
+    display: flex;
+    color: white;
+    margin-left:470px;
+    margin-top: 15px;
+    font-size: 13px;
+}
+.s3{
+    display: flex;
+    color: white;
+    margin-left:470px;
+    margin-top: 15px;
+    font-size: 13px;
+
+}
+.s4{
+    display: flex;
+    color: white;
+    margin-left:470px;
+    margin-top: 15px;
+    font-size: 13px
+
+}
+.acc{
+    display: flex;
+    margin-left:700px;
+    margin-top:-170px;
+}
+.quick{
+    display: flex;
+    margin-left:900px;
+    margin-top:-230px;
+}
+.dow{
+    display: flex;
+    margin-left:1100px;
+    margin-top:-210px;
+
+}
+.insta{
+    display: flex;
+    color: white;
+    margin-left:1100px;
+    margin-top: 15px;
+    font-size: 13px
+
+}
+.link{
+    display: flex;
+    color: white;
+    margin-left:1150px;
+    margin-top:-35px;
+    font-size: 13px
+
+
+}
+.amaz{
+    display: flex;
+    color: white;
+    margin-left:1200px;
+    margin-top:-35px;
+    font-size: 13px
+}
+.you{
+    display: flex;
+    color: white;
+    margin-left:1250px;
+    margin-top:-35px;
+    font-size: 13px
+}
